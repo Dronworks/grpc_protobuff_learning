@@ -7,3 +7,5 @@ We do callback(null, {some item}). The *null* means that we want the system to c
 ### What endpoints are GRPC available?
 To see what endpoints are available type in console `grpcurl --plaintext localhost:9090 list`
 
+### What method available on endpoint?
+To see what methods are available type in console `grpcurl --plaintext localhost:9090 list <endpoint name>`
