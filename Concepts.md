@@ -9,3 +9,6 @@ To see what endpoints are available type in console `grpcurl --plaintext localho
 
 ### What method available on endpoint?
 To see what methods are available type in console `grpcurl --plaintext localhost:9090 list <endpoint name>`
+
+### To send message to gRpc server
+Type in console `grpcurl --plaintext - '{"message": "how are you"}' localhost:9090 <endpoint name>/<method name>`
